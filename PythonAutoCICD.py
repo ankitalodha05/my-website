@@ -55,7 +55,7 @@ def check_update_and_copy(repo_url, local_repo_dir, file_to_copy, destination_pa
         print("No updates found, skipping file copy.")
 
 # Usage example
-repo_url = "https://github.com/ashrafgate/CICDPipeline.git"  # Replace with the actual repo URL
+repo_url = "https://github.com/ankitalodha05/my-website.git"  # Replace with the actual repo URL
 local_repo_dir = "/root/project"  # Temporary directory to clone the repo
 file_to_copy = "/root/project/index.html"  # Path inside the repo
 destination_path = "/var/www/html/index.html"  # Path on the server where file should be copied
