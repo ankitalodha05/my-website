@@ -1,0 +1,5 @@
+crontab -e
+
+*/2 * * * * /root/runPython.sh > /dev/null 2>&1
+
+crontab -l
